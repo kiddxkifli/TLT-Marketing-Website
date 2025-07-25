@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TLT Enterprise: Delivering Quality, Building Trust in Brunei</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-lato">
+
+    <div id="root" class="overflow-x-hidden">
+        <!-- Header -->
+        <header id="header" class="bg-white/80 backdrop-blur-lg fixed top-0 left-0 right-0 z-50 shadow-sm">
+            <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold text-primary tracking-wider">TLT Ent.</a>
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#brands" class="text-gray-600 hover:text-primary transition-colors">Our Brands</a>
+                    <a href="#services" class="text-gray-600 hover:text-primary transition-colors">Our Services</a>
+                    <a href="#about" class="text-gray-600 hover:text-primary transition-colors">About Us</a>
+                    <a href="#contact" class="text-gray-600 hover:text-primary transition-colors">Contact</a>
+                </nav>
+                <button id="mobile-menu-button" class="md:hidden">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden bg-white/90 backdrop-blur-lg">
+                <nav class="flex flex-col items-center space-y-4 py-4">
+                    <a href="#brands" class="text-gray-600 hover:text-primary transition-colors">Our Brands</a>
+                    <a href="#services" class="text-gray-600 hover:text-primary transition-colors">Our Services</a>
+                    <a href="#about" class="text-gray-600 hover:text-primary transition-colors">About Us</a>
+                    <a href="#contact" class="text-gray-600 hover:text-primary transition-colors">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section class="min-h-screen flex items-center bg-gray-100 pt-24 pb-12 md:pt-20">
+                <div class="container mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+                    <div class="text-left animate-fade-in-up">
+                        <h1 class="text-4xl md:text-6xl font-montserrat font-black leading-tight mb-4 text-primary">TLT Enterprise: Delivering Quality, Building Trust in Brunei.</h1>
+                        <p class="text-lg md:text-xl max-w-3xl text-gray-700 mb-8">As Brunei's leading food and beverage distributor, we are committed to delivering our customers quality products and services. Think quality. Think us.</p>
+                        <div class="flex flex-col sm:flex-row justify-start items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                            <a href="#brands" class="bg-primary hover:bg-primary-dark text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105">Our Brands</a>
+                            <a href="#services" class="bg-gray-200 hover:bg-gray-300 text-primary font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105">Our Services</a>
+                        </div>
+                    </div>
+                    <div class="w-full h-80 md:h-96 animate-fade-in-up" style="animation-delay: 0.2s;">
+                        <model-viewer src="https://v3.fal.media/files/penguin/Mg9uI-PcRdlbzCUZY0xRE_model.glb"
+                                      alt="TLT Enterprise Delivery Truck 3D Model"
+                                      auto-rotate
+                                      camera-controls
+                                      disable-zoom
+                                      shadow-intensity="1"
+                                      style="width: 100%; height: 100%; --mv-progress-bar-color: var(--color-primary); border-radius: 1rem;">
+                        </model-viewer>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Mission & Vision -->
+            <section class="bg-white py-20">
+                <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+                    <div class="animate-on-scroll">
+                        <h2 class="text-3xl font-montserrat font-bold text-primary mb-4">Our Mission</h2>
+                        <p class="text-lg text-gray-600">To deliver quality products and services that enhance the quality of life of consumers and the overall community.</p>
+                    </div>
+                    <div class="animate-on-scroll">
+                         <h2 class="text-3xl font-montserrat font-bold text-accent mb-4">Our Vision</h2>
+                        <p class="text-lg text-gray-600">To be the leading trusted brand for providing quality products and services in the market.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Our Brands Section -->
+            <section id="brands" class="py-20 bg-gray-50">
+                <div class="container mx-auto px-6">
+                    <div class="text-center mb-12 animate-on-scroll">
+                        <h2 class="text-4xl font-montserrat font-bold text-primary">Our Brands</h2>
+                        <p class="text-lg text-gray-600 mt-2">A portfolio of quality and trust.</p>
+                    </div>
+                    <div id="brands-container" class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <!-- Brand cards will be injected here by JS -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Our Services Section -->
+            <section id="services" class="py-20 bg-white">
+                <div class="container mx-auto px-6">
+                    <div class="text-center mb-12 animate-on-scroll">
+                        <h2 class="text-4xl font-montserrat font-bold text-primary">Our Services</h2>
+                        <p class="text-lg text-gray-600 mt-2">Excellence in every step of the journey.</p>
+                    </div>
+                    <div id="services-container" class="grid md:grid-cols-3 gap-8">
+                        <!-- Services will be injected here by JS -->
+                    </div>
+                </div>
+            </section>
+            
+            <!-- About Us Section -->
+            <section id="about" class="py-20 bg-gray-50">
+                <div class="container mx-auto px-6">
+                    <div class="text-center mb-12 animate-on-scroll">
+                        <h2 class="text-4xl font-montserrat font-bold text-primary">About Us</h2>
+                        <p class="text-lg text-gray-600 mt-2">A Legacy of Trust Since 1982.</p>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-12 items-start">
+                        <div class="animate-on-scroll bg-white p-8 rounded-lg shadow-md">
+                            <h3 class="text-2xl font-bold text-primary mb-4">Our History</h3>
+                            <p class="text-gray-700">Established in 1982, TLT Enterprise is a privately-owned company that has grown into one of Brunei Darussalam's leading importers and distributors of food and beverage products. The company was founded by individuals passionate about bringing quality, affordable products to the tables of Bruneians.</p>
+                        </div>
+                        <div class="animate-on-scroll bg-white p-8 rounded-lg shadow-md">
+                            <h3 class="text-2xl font-bold text-primary mb-4">Awards & Recognitions</h3>
+                            <ul id="awards-list" class="space-y-2 text-gray-700 list-disc list-inside">
+                                <!-- Awards will be injected here by JS -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Us Section -->
+            <section id="contact" class="py-20 bg-primary-gradient text-white">
+                <div class="container mx-auto px-6">
+                    <div class="text-center mb-12 animate-on-scroll">
+                        <h2 class="text-4xl font-montserrat font-bold">Get In Touch</h2>
+                        <p class="text-lg mt-2 text-white/80">We'd love to hear from you.</p>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-12 items-start">
+                        <form id="contact-form" class="space-y-6 animate-on-scroll">
+                            <input type="text" placeholder="Your Name" class="w-full bg-white/20 p-4 rounded-lg border-2 border-transparent focus:border-white focus:bg-white/30 outline-none transition-all placeholder-white/70">
+                            <input type="email" placeholder="Your Email" class="w-full bg-white/20 p-4 rounded-lg border-2 border-transparent focus:border-white focus:bg-white/30 outline-none transition-all placeholder-white/70">
+                            <textarea placeholder="Your Message" rows="5" class="w-full bg-white/20 p-4 rounded-lg border-2 border-transparent focus:border-white focus:bg-white/30 outline-none transition-all placeholder-white/70"></textarea>
+                            <button type="submit" class="bg-white text-primary font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 w-full">Send Message</button>
+                        </form>
+                        <div class="space-y-6 animate-on-scroll">
+                            <div class="flex items-start space-x-4">
+                                <i data-lucide="map-pin" class="w-6 h-6 mt-1 text-white"></i>
+                                <div>
+                                    <h4 class="font-bold">Address</h4>
+                                    <p class="text-white/80">Plot 56, Tapak Perindustrian Lambak Kanan Barat Fasa II, Mukim Berakas A, Bandar Seri Begawan BB1714, Negara Brunei Darussalam.</p>
+                                </div>
+                            </div>
+                             <div class="flex items-start space-x-4">
+                                <i data-lucide="phone" class="w-6 h-6 mt-1 text-white"></i>
+                                <div>
+                                    <h4 class="font-bold">Phone</h4>
+                                    <p class="text-white/80">(+673) 239 3366 / 5822</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <i data-lucide="mail" class="w-6 h-6 mt-1 text-white"></i>
+                                <div>
+                                    <h4 class="font-bold">Email</h4>
+                                    <p class="text-white/80">mo@tlt-ent.com</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <i data-lucide="clock" class="w-6 h-6 mt-1 text-white"></i>
+                                <div>
+                                    <h4 class="font-bold">Opening Hours</h4>
+                                    <p class="text-white/80">Monday - Friday: 8:00 AM - 5:00 PM</p>
+                                    <p class="text-white/80">Saturday: By appointment only</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white">
+            <!-- Developer Section -->
+            <div id="developer-section" class="bg-gray-900 py-16">
+                <div class="container mx-auto px-6">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-montserrat font-bold mb-2">My Portfolio</h3>
+                        <p class="text-gray-400">A professional resume showcase.</p>
+                    </div>
+                    <div class="max-w-6xl mx-auto bg-gray-800 p-8 rounded-lg shadow-2xl">
+                        <div id="resume-content" class="prose prose-invert prose-lg max-w-none">
+                            <div class="text-center mb-8">
+                                <p class="text-gray-400">Loading resume content...</p>
+                            </div>
+                        </div>
+                        <div class="text-center mt-8">
+                            <a href="resume.html" target="_blank" class="bg-primary hover:bg-primary-dark text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105">Download Resume (PDF)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-gray-900 py-6">
+                <div class="container mx-auto px-6 text-center text-gray-400">
+                    <p>&copy; <span id="year"></span> TLT Enterprise. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- AI Chatbot -->
+        <div id="chatbot-container" class="fixed bottom-6 right-6 z-50">
+            <button id="chatbot-toggle" class="bg-primary text-white w-16 h-16 rounded-full shadow-lg flex items-center justify-center transform hover:scale-110 transition-transform">
+                <i data-lucide="message-circle" class="w-8 h-8"></i>
+            </button>
+            <div id="chatbot-window" class="hidden absolute bottom-20 right-0 w-80 sm:w-96 h-[32rem] bg-white rounded-lg shadow-2xl flex flex-col overflow-hidden transition-all duration-300">
+                <div class="bg-primary p-4 text-white flex justify-between items-center">
+                    <h3 class="font-bold">TLT Assistant</h3>
+                    <button id="chatbot-close" class="text-white">
+                        <i data-lucide="x" class="w-5 h-5"></i>
+                    </button>
+                </div>
+                <div id="chatbot-messages" class="flex-1 p-4 overflow-y-auto">
+                    <!-- Messages will appear here -->
+                </div>
+                <div id="chatbot-input-container" class="p-4 border-t border-gray-200">
+                    <form id="chatbot-form" class="flex items-center space-x-2">
+                        <input type="text" id="chatbot-input" placeholder="Ask about our products..." class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                        <button type="submit" class="bg-primary text-white p-2 rounded-lg">
+                            <i data-lucide="send" class="w-5 h-5"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script type="module" src="js/main.js"></script>
+    <script>
+        async function loadResumeContent() {
+            try {
+                const response = await fetch('muhammad_kamal_hj_kifli_resume_marketing.md');
+                const resumeText = await response.text();
+                const resumeContent = document.getElementById('resume-content');
+                
+                const htmlContent = marked.parse(resumeText);
+                resumeContent.innerHTML = htmlContent;
+                
+                resumeContent.querySelectorAll('h1, h2, h3').forEach(heading => {
+                    heading.classList.add('text-primary', 'font-montserrat', 'font-bold');
+                });
+                
+                resumeContent.querySelectorAll('ul').forEach(list => {
+                    list.classList.add('space-y-2');
+                    list.querySelectorAll('li').forEach(item => {
+                        item.classList.add('relative', 'pl-6');
+                    });
+                });
+                
+                resumeContent.querySelectorAll('p').forEach(paragraph => {
+                    paragraph.classList.add('text-gray-300', 'leading-relaxed');
+                });
+                
+            } catch (error) {
+                console.error('Error loading resume:', error);
+                document.getElementById('resume-content').innerHTML = '<p class="text-red-400 text-center">Error loading resume content. Please try again later.</p>';
+            }
+        }
+        
+        document.addEventListener('DOMContentLoaded', loadResumeContent);
+    </script>
+</body>
+</html>

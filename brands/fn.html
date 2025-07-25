@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&N Beverages & Dairies - TLT Enterprise</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-lato">
+
+    <div id="root">
+        <!-- Header -->
+        <header id="header" class="bg-white/80 backdrop-blur-lg sticky top-0 left-0 right-0 z-50 shadow-sm">
+            <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+                <a href="../index.html" class="text-2xl font-bold text-primary tracking-wider">TLT Ent.</a>
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="../index.html#brands" class="text-gray-600 hover:text-primary transition-colors">Our Brands</a>
+                    <a href="../index.html#services" class="text-gray-600 hover:text-primary transition-colors">Our Services</a>
+                    <a href="../index.html#about" class="text-gray-600 hover:text-primary transition-colors">About Us</a>
+                    <a href="../index.html#contact" class="text-gray-600 hover:text-primary transition-colors">Contact</a>
+                </nav>
+                <a href="../index.html#contact" class="hidden md:block bg-primary hover:bg-primary-dark text-white font-bold py-2 px-6 rounded-full transition-all duration-300">Get In Touch</a>
+            </div>
+        </header>
+
+        <main>
+            <!-- Brand Hero Section -->
+            <section class="relative bg-red-600 py-20 md:py-32 text-white text-center" style="background-color: #d32f2f;">
+                <div class="container mx-auto px-6">
+                     <img src="https://r2.flowith.net/files/o/1753416263163-f&n_dairy_product_showcase_index_3@1024x1024.png" alt="F&N Products" class="w-auto h-48 mx-auto mb-8 drop-shadow-2xl">
+                    <h1 class="text-5xl md:text-7xl font-montserrat font-black">F&N</h1>
+                    <p class="text-xl md:text-2xl mt-4 font-light">Pure Enjoyment. Pure Goodness.</p>
+                </div>
+            </section>
+
+            <!-- Brand Details Section -->
+            <section class="py-20">
+                <div class="container mx-auto px-6 max-w-4xl text-center">
+                    <h2 class="text-3xl font-montserrat font-bold text-primary mb-4">The Perfect Companion</h2>
+                    <p class="text-lg text-gray-600">F&N products are the perfect companion for any meal or celebration, trusted by generations for their quality and taste. We are proud to distribute a wide range of F&N beverages and dairy products to the people of Brunei.</p>
+                </div>
+            </section>
+            
+            <!-- Product Lines Section -->
+            <section class="py-20 bg-white">
+                <div class="container mx-auto px-6">
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl font-montserrat font-bold text-primary">Our F&N Portfolio</h2>
+                        <p class="text-lg text-gray-600 mt-2">A taste for every moment.</p>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Beverages</h3>
+                            <ul class="space-y-2 text-gray-600 list-disc list-inside">
+                                <li>100Plus</li>
+                                <li>F&N Fun Flavours</li>
+                                <li>F&N Seasons</li>
+                                <li>F&N Sun Valley</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Dairies</h3>
+                            <ul class="space-y-2 text-gray-600 list-disc list-inside">
+                                <li>Farmhouse</li>
+                                <li>F&N Dairies (Canned Milk)</li>
+                                <li>Gold Coin</li>
+                                <li>Cap Junjung</li>
+                                <li>Carnation</li>
+                                <li>Teapot Pilihan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <!-- Danone Dumex Section -->
+            <section class="py-20 bg-gray-100">
+                <div class="container mx-auto px-6 text-center">
+                    <h2 class="text-3xl font-montserrat font-bold text-primary mb-4">Also Distributing</h2>
+                    <p class="text-lg text-gray-600 mt-2 font-bold">Danone Dumex</p>
+                    <p class="text-gray-600">Specializing in Early Life Nutrition Products.</p>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white">
+            <div class="bg-gray-900 py-6">
+                <div class="container mx-auto px-6 text-center text-gray-400">
+                    <p>&copy; <span id="year"></span> TLT Enterprise. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
