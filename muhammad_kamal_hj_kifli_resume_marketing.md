@@ -1,113 +1,61 @@
 # Muhammad Kamal Hj Kifli
 
 ## Professional Summary
-Dynamic and results-driven marketing professional with extensive experience in digital marketing, brand management, and strategic campaign development. Proven track record of driving brand growth and customer engagement through innovative marketing strategies and data-driven decision making.
+I am a highly motivated and adaptable professional with robust marketing skills and diverse experience in digital marketing, brand visibility, and content creation. I aim to leverage my strong marketing skills, visual communication expertise, and proactive approach to make a significant contribution wherever I plant foot into.
 
-## Skills
-
-### Digital Marketing
-- Search Engine Optimization (SEO)
-- Pay-Per-Click (PPC) Advertising
-- Social Media Marketing
-- Content Marketing Strategy
-- Email Marketing Campaigns
-- Google Analytics & Data Analysis
-- Marketing Automation
-
-### Brand Management
-- Brand Strategy Development
-- Brand Positioning
-- Creative Campaign Development
-- Market Research & Analysis
-- Consumer Behavior Analysis
-- Brand Identity Design
-- Public Relations
-
-### Technical Skills
-- Adobe Creative Suite (Photoshop, Illustrator, InDesign)
-- Google Ads & Facebook Ads Manager
-- HubSpot & Salesforce CRM
-- WordPress & Web Content Management
-- HTML/CSS Basics
-- Microsoft Office Suite
-- Project Management Tools (Trello, Asana)
+## Strengths
+- Analytical Thinker: Strong analytical skills for marketing data interpretation.
+- Deadline Oriented: Proven ability to work under pressure and meet tight deadlines.
+- Creative Thinker: Creative approach to problem-solving and content creation.
 
 ## Experience
 
-### Senior Marketing Manager
-**TLT Enterprise** | January 2020 - Present
-- Lead comprehensive marketing strategies for Brunei's leading food and beverage distributor
-- Developed and executed multi-channel marketing campaigns resulting in 35% increase in brand awareness
-- Managed digital marketing budget of $150,000 annually with ROI of 280%
-- Collaborated with cross-functional teams to launch 12 new product lines
-- Implemented customer segmentation strategies that improved targeting efficiency by 45%
+### Administrative Secretary (FAC/212 - Finance)
+Brunei Shell Petroleum Co. Sdn. Bhd.
+- Played a key role in organizing and maintaining financial records, ensuring smooth document retrieval and compliance.
+- Improved workflow efficiency by introducing a structured filing system.
 
-### Digital Marketing Specialist
-**Innovative Marketing Solutions** | March 2018 - December 2019
-- Specialized in SEO optimization and PPC campaign management for diverse client portfolio
-- Achieved average organic traffic growth of 120% across client websites
-- Managed Google Ads campaigns with combined monthly budget of $75,000
-- Conducted comprehensive market research and competitor analysis
-- Developed content marketing strategies that increased engagement by 65%
+### Digital Marketing Analyst
+BUE Enterprise
+- Integrated AI tools into digital marketing strategies, significantly improving workflow efficiency.
+- Implemented data-driven decision making to enhance campaign performance.
 
-### Marketing Coordinator
-**Brunei Business Council** | June 2016 - February 2018
-- Coordinated marketing activities for business development initiatives
-- Managed social media accounts with combined following of 25,000+
-- Organized promotional events and trade shows
-- Created marketing materials and brand collateral
-- Supported lead generation activities resulting in 30% increase in qualified leads
+### Visual Marketing Assistant
+The Kugelblitz
+- Created compelling visual content that effectively conveyed brand identity.
+- Enhanced communication through strategic visual campaigns.
 
-## Projects
+### Marketing & Design Administrator
+BTHC Moshware
+- Developed impactful marketing materials that enhanced brand visibility.
+- Collaborated with cross-functional teams to boost customer engagement.
 
-### Brand Revitalization Campaign - TLT Enterprise
-- Led comprehensive rebranding initiative for company's 40th anniversary
-- Developed new brand identity and messaging framework
-- Launched integrated marketing campaign across digital and traditional channels
-- Achieved 50% increase in brand recognition and 25% growth in market share
+### IT Support Analyst
+CIC Environmental Services Sdn Bhd
+- Provided timely technical support, ensuring minimal disruption to daily operations.
+- Assisted in transitioning office systems to a cloud-based platform for better accessibility and security.
 
-### Digital Transformation Initiative
-- Spearheaded company's transition to digital marketing platforms
-- Implemented CRM system and marketing automation workflows
-- Developed employee training programs for digital marketing tools
-- Reduced marketing costs by 30% while improving campaign effectiveness
+### Logistic Operation Supervisor
+Brunei LNG Sdn Bhd
+- Monitored and maintained plant operations with strict adherence to safety protocols.
+- Assisted in streamlining plant procedures, leading to more efficient workflows.
 
-### Customer Loyalty Program Development
-- Designed and launched comprehensive customer loyalty program
-- Integrated mobile app with reward system and personalized offers
-- Achieved 15,000 active users within first 6 months
-- Increased customer retention rate by 40%
+### Hoisting Equipment Rigger
+Megalift Sdn Bhd
+- Maintained high safety standards in equipment handling, preventing operational hazards.
+
+## Key Achievements
+
+### AI Integration in Marketing
+- Successfully integrated AI tools into marketing strategies that improved workflow efficiency by over 30%.
+
+### Successful Marketing Campaign
+- Developed a comprehensive marketing campaign that increased brand engagement by 25%.
 
 ## Education
 
-### Bachelor of Business Administration - Marketing
-**Universiti Brunei Darussalam** | 2012 - 2016
-- Graduated Magna Cum Laude (GPA: 3.7/4.0)
-- President, Marketing Students Association (2015-2016)
-- Dean's List for 6 consecutive semesters
-- Relevant Coursework: Consumer Behavior, Digital Marketing, Brand Management, Market Research
+### Level 5 Diploma in Network and Security
+Politeknik Brunei, Brunei
 
-### Professional Certifications
-- Google Ads Certified Professional (2019)
-- Google Analytics Individual Qualification (2018)
-- HubSpot Content Marketing Certification (2020)
-- Facebook Blueprint Certification (2019)
-- Project Management Professional (PMP) - In Progress
-
-## Additional Information
-
-### Languages
-- English (Native)
-- Bahasa Melayu (Native)
-- Mandarin (Conversational)
-
-### Interests
-- Digital innovation and emerging marketing technologies
-- Sustainable business practices and green marketing
-- Photography and visual storytelling
-- Community volunteer work and social impact initiatives
-
-### Professional Memberships
-- Marketing Association of Brunei Darussalam
-- Digital Marketing Institute
-- American Marketing Association (International Member)
+### 70 Levels in Pure Science
+SMPW KB, Brunei
